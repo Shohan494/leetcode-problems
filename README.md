@@ -1,10 +1,11 @@
 # leetcode-problems
 
-## twoSum
+## 1. twoSum
 - Hash Map/Hash Table
 - So, if we fix one of the numbers, say x, we have to scan the entire array to find the next number y which is value - x where value is the input parameter
 - my solution is based on two nested for loop and I have to use **hash map here for better solution**
-## 
+
+## 1480. Running Sum of 1d Array
 - https://leetcode.com/problems/running-sum-of-1d-array/editorial/
 - I used as usual brute force
 - better solution 
@@ -19,7 +20,7 @@ public int[] runningSum(int[] nums) {
     }
 }
 ```
-Complexity Analysis
-    Time complexity: O(n)O(n)O(n) where nnn is the length of input array.
-    Space complexity: O(1)O(1)O(1) since we don't use any additional space to find the running sum. Note that we do not take into consideration the space occupied by the output array.
+#### Complexity Analysis
+- Time complexity: O(n)O(n)O(n) where nnn is the length of input array.
+- Space complexity: O(1)O(1)O(1) since we don't use any additional space to find the running sum. Note that we do not take into consideration the space occupied by the output array.
 

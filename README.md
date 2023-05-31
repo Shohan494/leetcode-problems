@@ -20,6 +20,12 @@ public int[] runningSum(int[] nums) {
     }
 }
 ```
+#### Algorithm
+    - Define an array result.
+    - Initialize the first element of result with the first element of the input array.
+    - At index i append the sum of the element nums[i] and previous running sum result[i - 1] to the result array.
+    - We repeat step 3 for all indices from 1 to n-1.
+
 #### Complexity Analysis
 - Time complexity: O(n)O(n)O(n) where nnn is the length of input array.
 - Space complexity: O(1)O(1)O(1) since we don't use any additional space to find the running sum. Note that we do not take into consideration the space occupied by the output array.

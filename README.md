@@ -30,3 +30,5 @@ public int[] runningSum(int[] nums) {
 - Time complexity: O(n)O(n)O(n) where nnn is the length of input array.
 - Space complexity: O(1)O(1)O(1) since we don't use any additional space to find the running sum. Note that we do not take into consideration the space occupied by the output array.
 
+#### Personal Note : Video explains better, basically the sum is just the (last sum + current array element)
+

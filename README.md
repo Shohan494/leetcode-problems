@@ -32,3 +32,7 @@ public int[] runningSum(int[] nums) {
 
 #### Personal Note : Video explains better, basically the sum is just the (last sum + current array element)
 
+## Best Time to Buy Sell stock
+
+- I think maxPrice can also be another solution if my already done program can be re written in some opposite conditional checks
+
